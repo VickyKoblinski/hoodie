@@ -1,0 +1,8 @@
+version: "2"
+services:
+  hoodie:
+    build: .
+    environment:
+      - hoodie_address=0.0.0.0
+    ports:
+      - "8080:8080"
